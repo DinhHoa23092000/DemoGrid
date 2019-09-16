@@ -1,0 +1,29 @@
+.header{
+	grid-area: header;
+	background: pink;
+}
+.mainBar{
+	grid-area: bar;
+	background: green;
+}
+.menu{
+	grid-area: menu;
+	background: yellow;
+}
+.content{
+	grid-area: conten;
+	background: black;
+}
+.footer{
+	grid-area: footer;
+	background: red;
+}
+.grid_container{
+	display: grid;
+	grid-template-areas: 
+	'header header header'
+	'bar bar bar'
+	'menu conten conten'
+	'footer footer footer';
+	height: 120px;
+}
